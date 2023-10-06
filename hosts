@@ -1,0 +1,13 @@
+[jenkins-master]
+172.31.47.161
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/DevOps_CICD.pem
+
+[jenkins-slave]
+172.31.47.105
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/DevOps_CICD.pem
